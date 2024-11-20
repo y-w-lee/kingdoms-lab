@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.app-container {
+  /* margin: 40px auto; */
+  width: 90%;
+}
+
+/* Title Styling */
+h1 {
+  font-weight: bold;
+  color: purple;
+  margin-bottom: 20px;
+  margin-top: 5rem;
+}
+
+/* Dropdown Styling */
+#countries-dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Label Styling */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
